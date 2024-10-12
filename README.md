@@ -11,6 +11,15 @@ Smooth Gameplay: Enjoy fluid animations and responsive controls.
 ![s1](assets/s1.png)
 ![s2](assets/s2.png)
 
+### Usage:
+
+Use the on-screen buttons to move and rotate the Tetris pieces.
+
+Clear lines by completing them horizontally. Each completed line scores you points.
+
+:rocket: Aim for the highest score and challenge yourself.
+
+
 #### Technologies Used:
 
 **Flutter**: A powerful framework for building beautiful, natively compiled applications for mobile, web, desktop, and beyond.<br>
@@ -59,15 +68,6 @@ Visual Studio Code with the Flutter extension
 
 
 This will start the development server and launch the app on a connected device or emulator.
-
-
-### Usage:
-
-Use the on-screen buttons to move and rotate the Tetris pieces.
-
-Clear lines by completing them horizontally. Each completed line scores you points.
-
-:rocket: Aim for the highest score and challenge yourself.
 
 
 ## Contributing:
