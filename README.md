@@ -31,30 +31,30 @@ Visual Studio Code with the Flutter extension
 
 1. Clone the Repository: Open your terminal or command prompt and navigate to your desired project directory. Then, clone the Mini-Tetris repository using the following command
 
-'''Bash
+Bash
 git clone https://github.com/Tiger-Sharks/Mini-Tetris.git
-'''
+
 
 
 2. Navigate to Project Directory: Use the cd command to enter the downloaded project directory:
 
-'''Bash
+Bash
 cd Mini-Tetris
-'''
+
 
 3. Install Dependencies: Flutter relies on packages for various functionalities. Run the following command to download and install all the required packages for Mini-Tetris:
 
-'''Bash
+Bash
 flutter pub get
-'''
+
 
 4. Running the App:
 
 With everything set up, you're ready to launch Mini-Tetris on your device or emulator! Execute the following command in your terminal:
 
-'''Bash
+Bash
 flutter run
-'''
+
 
 This will start the development server and launch the app on a connected device or emulator.
 
@@ -76,26 +76,26 @@ We welcome contributions to Mini-Tetris! If you have ideas or want to help impro
 
 2. **Create a New Branch:** Switch to your local copy and create a new branch for your specific contributions using the command:
 
-'''
+
 Bash
 git checkout -b your-branch-name
-'''
+
 
 (Replace your-branch-name with a descriptive name for your changes)
 
 3. **Make Your Changes:** Implement your desired improvements and commit them to your local branch.
 
-'''
+
 Bash
 git commit -m "your feature"
-'''
+
 
 4. **Push to Branch:** Push your changes to your forked repository on GitHub using:
 
-'''
+
 Bash
 git push origin your-branch-name
-'''
+
 
 5. **Create a Pull Request:** Submit a pull request on GitHub to propose your changes to the main Mini-Tetris repository.
 
