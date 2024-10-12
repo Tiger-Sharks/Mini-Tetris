@@ -7,7 +7,7 @@ Mini-Tetris is a modern and minimalist remake of the classic Tetris game, built 
 Minimalist Design: Clean and modern UI for a focused gameplay experience.<br>
 Smooth Gameplay: Enjoy fluid animations and responsive controls.
 
-####screenshots of the game
+#### screenshots of the game
 ![s1](assets/s1.png)
 ![s2](assets/s2.png)
 
