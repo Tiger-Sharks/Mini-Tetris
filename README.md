@@ -7,6 +7,10 @@ Mini-Tetris is a modern and minimalist remake of the classic Tetris game, built 
 Minimalist Design: Clean and modern UI for a focused gameplay experience.<br>
 Smooth Gameplay: Enjoy fluid animations and responsive controls.
 
+####screenshots of the game
+![s1](assets/s1.png)
+![s2](assets/s2.png)
+
 #### Technologies Used:
 
 **Flutter**: A powerful framework for building beautiful, natively compiled applications for mobile, web, desktop, and beyond.<br>
@@ -23,7 +27,7 @@ Flutter SDK: Download and install the Flutter SDK from the official website (htt
 Compatible IDE: Choose an editor or IDE that supports Flutter development.<br> 
 
 Popular options include:
-Android Studio (https://developer.android.com/studio)
+Android Studio (https://developer.android.com/studio) or
 Visual Studio Code with the Flutter extension
 
 
