@@ -83,6 +83,12 @@ class Piece {
         }
         break;
 
+      case Direction.down:
+        for (int y = 0; y < position.length; y++) {
+            position[y] += 1;
+        }
+        break;
+
       default:
     }
   }

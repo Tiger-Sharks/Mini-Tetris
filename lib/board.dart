@@ -214,6 +214,15 @@ class _GameBoardState extends State<GameBoard> {
     }
   }
 
+  // Move Down
+  void moveDown() {
+    if (!checkCollision(Direction.down)) {
+      setState(() {
+        currentPiece.movePiece(Direction.down);
+      });
+    }
+  }
+
   // Rotate
   void rotatePiece() {
     setState(() {
@@ -312,12 +321,15 @@ class _GameBoardState extends State<GameBoard> {
           // Score Board
           Text(
             "Score: $currScore",
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(
+                color: Colors.white,
+                fontSize: 15.0
+            ),
           ),
           
-          // Game Controls
+          // Game Controls R1
           Padding(
-            padding: const EdgeInsets.only(bottom: 80.0, top: 50.0),
+            padding: const EdgeInsets.only(bottom: 10.0, top: 35.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -325,21 +337,45 @@ class _GameBoardState extends State<GameBoard> {
               IconButton(
                   onPressed: moveLeft,
                   color: Colors.white,
-                  icon: Icon(Icons.arrow_back_ios)),
+                  icon: Icon(
+                      Icons.keyboard_double_arrow_left,
+                      size: 30.0)),
 
               // Rotate
               IconButton(
                   onPressed: rotatePiece,
                   color: Colors.white,
-                  icon: Icon(Icons.rotate_right)),
+                  icon: Icon(
+                      Icons.rotate_right,
+                      size:30.0)),
 
               // Right
               IconButton(
                   onPressed: moveRight,
                   color: Colors.white,
-                  icon: Icon(Icons.arrow_forward_ios)),
+                  icon: Icon(
+                      Icons.keyboard_double_arrow_right,
+                      size: 30.0)),
             ],),
-          )
+
+          ),
+
+          // Game Controls R2
+          Padding(
+            padding: const EdgeInsets.only(bottom: 20.0, top: 30.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                // Left
+                IconButton(
+                    onPressed: moveDown,
+                    color: Colors.white,
+                    icon: Icon(
+                      Icons.keyboard_double_arrow_down,
+                      size: 30.0,)),
+              ],),
+
+          ),
 
         ],
       ),
